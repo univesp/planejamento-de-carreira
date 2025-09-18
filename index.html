@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="assets/fb-share.png"/>
+  <meta property="og:title" content="Planejamento de Carreira." />
+  <meta property="og:description"
+  content="No Oráculo de Delfos, na Grécia Antiga, havia uma inscrição na qual se lia: “Conheça a si mesmo!”. Saber quem e como você é, é fundamental para o planejamento da sua carreira profissional. Quer saber qual é seu perfil profissional? A gente ajuda você."/>
+  <meta property="og:tags" content="teste de personalidade, perfil profissional, planejamento de carreira, estágio supervisionado, Engenharia de Produção
+" />
+  <title>Univesp | Planejamento de Carreira.</title>
+
+  <link rel="shortcut icon" href="http://apps.univesp.br/common/favicon.ico" type="image/x-icon"/>
+
+  <!-- Arquivos Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Ícones por Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Ícones por Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Tipografia institucional por Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Compartilhamento por jsSocials -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+  <!-- Animate CSS. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <link rel="stylesheet" href="https://apps.univesp.br/common/animate.css"> -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.0.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+
+</head>
+
+<body class="d-flex flex-column">
+
+  <!-- Utilizar essa DIV caso o REA não se adapte a todos os tamanhos de tela -->
+  <!-- <div class="esconder-tela-pequena"> -->
+
+  <!-- Menu -->
+  <nav>
+    <div class="container d-flex justify-content-end">
+
+      <div class="logo">
+
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/traco-negativa.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp em letras maiúsculas, sendo a letra V estilizada.">
+          <!-- outras opções de img src: colorida-negativa.svg, traco-positiva.svg, traco-negativa.svg -->
+        </a>
+      </div>
+
+      <ul class="nav justify-content-end">
+
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Menu de acessibilidade">accessibility_new</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            ...
+          </div>
+        </li> -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing" id="share-buttons"></div>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <div id="headerImpressao" class="d-none d-print-block text-center">
+    <img src="https://apps.univesp.br/common/traco-positiva.svg" style="width: 30%;">
+    <h1 class="flex-grow-1 text-center">Planejamento de Carreira.<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;apps.univesp.br/a-visão-do-aluno-sobre-a-carreira.
+    </h1>
+  </div>
+
+  <!-- Conteúdo -->
+  <main id="conteudoPrincipal">
+    <!-- Introdução -->     
+    <div class="container etapa" id="intro">
+      <div class="text-center text-md-left print" style="flex: 1 1 0">
+        <h1 class="titulo">Qual é seu perfil?</h1>
+        <p style="padding-top: 1rem;">
+          No Oráculo de Delfos, na antiga Grécia, havia uma inscrição na qual se lia: <b style="color: #00afaf">“Conheça a si mesmo!”</b><p>
+          <p>Saber quem é você, como é você, é fundamental para que você possa planejar sua carreira profissional.</p>
+          <p>Como é que se pode identificar com quais coisas a gente se sente bem?</p>
+          <p><b style="color: #00afaf">Vamos começar mapeando as atividades profissionais a partir de dois eixos:</b> o primeiro eixo tem <b style="color: #00afaf">dados</b> de um lado e, do outro, <b style="color: #00afaf">ideias</b>; o segundo eixo, trata de <b style="color: #00afaf">coisas</b>, de um lado, e de <b style="color: #00afaf">pessoas</b>, do outro.</p>
+          <p>Ligadas às coisas, temos as atividades <b style="color: #00afaf">práticas</b>; combinando coisas e ideias, temos as atividades <b style="color: #00afaf">intelectuais</b>; se combinamos coisas e dados, temos as atividades <b style="color: #00afaf">administrativas</b>. Ligadas às pessoas, temos as atividades <b style="color: #00afaf">sociais</b>; combinando ideias e pessoas, temos as atividades <b style="color: #00afaf">criativas</b>; se combinamos pessoas e dados, temos as atividades <b style="color: #00afaf">empresariais</b>.</p>
+          <div>
+          <p style="color: #00afaf; font-weight: 600; font-family: 'Barlow', sans-serif; font-size: 14px;"><img type="button" data-toggle="collapse" data-target="#demo" src="assets/botao_mapa.png" style="width: 6%; cursor: pointer;">←  CLIQUE AQUI</p>
+          <div class="container" align="center">
+          <div id="demo" class="collapse" style="width: 90%;">
+        <img class="imagem1" src="assets/mapa3.png" style="padding-bottom: 2%;">
+        </div>
+    </div>
+    </div>
+    <p><b style="color: #00afaf">Quer saber qual é seu perfil profissional?</b>
+          A gente ajuda você.</p>
+          <p>Responda ao teste de perfil. Ele está organizado em duas etapas.</p>
+        <button type="button" class="btn btn-primary avancarEtapa habilitado">Vamos começar?</button>
+        <img style="padding-top: 3%; width: 100%; text-align: center;" src="assets/decoracao.svg">
+      </div>
+    </div>
+    </div>
+
+
+    <!-- Autoavaliação Orientada -->
+    <div class="container-fluid text-center etapa" id="autoaval_orientada">
+    <div class="cabecalho">
+      <h2>ETAPA 1</h2>
+        </div>
+      <div>
+      <div>
+        <p>
+         Leia atentamente as frases a seguir e atribua uma nota em uma escala de 1 a 5, 
+      conforme você se identifica mais (5) ou menos (1) com ela.
+        </p>
+      </div>
+      </div>
+      <div class="labels-header">
+        <div class="container">
+          <div>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+          </div>
+        </div>
+      </div>
+
+      <ol>
+
+        <li class="atual">
+          <div class="container">
+          
+            <p class="pergunta">
+              Convencer e influenciar pessoas
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta1" id="Empresarial1" value="option1" >
+                <label class="form-check-label" for="Empresarial1">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta1" id="Empresarial2" value="option2">
+                <label class="form-check-label" for="Empresarial2">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta1" id="Empresarial3" value="option3">
+                <label class="form-check-label" for="Empresarial3">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta1" id="Empresarial4" value="option4">
+                <label class="form-check-label" for="Empresarial4">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta1" id="Empresarial5" value="option5">
+                <label class="form-check-label" for="Empresarial5">5</label>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Envolver pessoas em um projeto.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta2" id="Empresarial6" value="option1"  >
+                <label class="form-check-label" for="Empresarial6">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta2" id="Empresarial7" value="option2">
+                <label class="form-check-label" for="Empresarial7">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta2" id="Empresarial8" value="option3">
+                <label class="form-check-label" for="Empresarial8">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta2" id="Empresarial9" value="option4">
+                <label class="form-check-label" for="Empresarial9">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta2" id="Empresarial10" value="option5">
+                <label class="form-check-label" for="Empresarial10">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Verificar se os detalhes estão corretos.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta6" id="Administrativo1" value="option1"  >
+                <label class="form-check-label" for="Administrativo1">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta6"id="Administrativo2" value="option2">
+                <label class="form-check-label" for="Administrativo2">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta6" id="Administrativo3" value="option3">
+                <label class="form-check-label" for="Administrativo3">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta6" id="Administrativo4" value="option4">
+                <label class="form-check-label" for="Administrativo4">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta6" id="Administrativo5" value="option5">
+                <label class="form-check-label" for="Administrativo5">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Ter boa coordenação motora.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta11" id="pratico1" value="option1"   >
+                <label class="form-check-label" for="pratico1">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta11" id="pratico2" value="option2">
+                <label class="form-check-label" for="pratico2">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta11" id="pratico3" value="option3">
+                <label class="form-check-label" for="pratico3">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta11" id="pratico4" value="option4">
+                <label class="form-check-label" for="pratico4">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta11" id="pratico5" value="option5">
+                <label class="form-check-label" for="pratico5">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Pesquisar, analisar informações.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta16" id="Intelectual1" value="option1"  >
+                <label class="form-check-label" for="Intelectual1">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta16" id="Intelectual2" value="option2">
+                <label class="form-check-label" for="Intelectual2">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta16" id="Intelectual3" value="option3">
+                <label class="form-check-label" for="Intelectual3">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta16" id="Intelectual4" value="option4">
+                <label class="form-check-label" for="Intelectual4">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta16" id="Intelectual5" value="option5">
+                <label class="form-check-label" for="Intelectual5">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Aprender coisas novas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta17" id="Intelectual6" value="option1"  >
+                <label class="form-check-label" for="Intelectual6">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta17" id="Intelectual7" value="option2">
+                <label class="form-check-label" for="Intelectual7">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta17" id="Intelectual8" value="option3">
+                <label class="form-check-label" for="Intelectual8">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta17" id="Intelectual9" value="option4">
+                <label class="form-check-label" for="Intelectual9">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta17" id="Intelectual10" value="option5">
+                <label class="form-check-label" for="Intelectual10">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Criar e fazer coisas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta21" id="Criativo1" value="option1"  >
+                <label class="form-check-label" for="Criativo1">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta21" id="Criativo2" value="option2">
+                <label class="form-check-label" for="Criativo2">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta21" id="Criativo3" value="option3">
+                <label class="form-check-label" for="Criativo3">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta21" id="Criativo4" value="option4">
+                <label class="form-check-label" for="Criativo4">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta21" id="Criativo5" value="option5">
+                <label class="form-check-label" for="Criativo5">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Trabalhar ao lado de pessoas criativas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta22" id="Criativo6" value="option1"  >
+                <label class="form-check-label" for="Criativo6">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta22" id="Criativo7" value="option2">
+                <label class="form-check-label" for="Criativo7">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta22" id="Criativo8" value="option3">
+                <label class="form-check-label" for="Criativo8">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta22" id="Criativo9" value="option4">
+                <label class="form-check-label" for="Criativo9">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta22" id="Criativo10" value="option5">
+                <label class="form-check-label" for="Criativo10">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Conversar, fazer reuniões.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta26" id="Social1" value="option1"  >
+                <label class="form-check-label" for="Social1">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta26" id="Social2" value="option2">
+                <label class="form-check-label" for="Social2">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta26" id="Social3" value="option3">
+                <label class="form-check-label" for="Social3">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta26" id="Social4" value="option4">
+                <label class="form-check-label" for="Social4">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta26" id="Social5" value="option5">
+                <label class="form-check-label" for="Social5">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Cuidar das pessoas e se importar com elas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta27" id="Social6" value="option1"  >
+                <label class="form-check-label" for="Social6">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta27" id="Social7" value="option2">
+                <label class="form-check-label" for="Social7">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta27" id="Social8" value="option3">
+                <label class="form-check-label" for="Social8">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta27" id="Social9" value="option4">
+                <label class="form-check-label" for="Social9">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta27" id="Social10" value="option5">
+                <label class="form-check-label" for="Social10">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Escrever textos, músicas, roteiros de peça/filmes.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta23" id="Criativo11" value="option1"  >
+                <label class="form-check-label" for="Criativo11">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta23" id="Criativo12" value="option2">
+                <label class="form-check-label" for="Criativo12">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta23" id="Criativo13" value="option3">
+                <label class="form-check-label" for="Criativo13">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta23" id="Criativo14" value="option4">
+                <label class="form-check-label" for="Criativo14">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta23" id="Criativo15" value="option5">
+                <label class="form-check-label" for="Criativo15">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Fazer perguntas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta18" id="Intelectual11" value="option1"  >
+                <label class="form-check-label" for="Intelectual11">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta18" id="Intelectual12" value="option2">
+                <label class="form-check-label" for="Intelectual12">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta18" id="Intelectual13" value="option3">
+                <label class="form-check-label" for="Intelectual13">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta18" id="Intelectual14" value="option4">
+                <label class="form-check-label" for="Intelectual14">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta18" id="Intelectual15" value="option5">
+                <label class="form-check-label" for="Intelectual15">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Trabalhar com ferramentas/máquinas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta12" id="pratico6" value="option1"   >
+                <label class="form-check-label" for="pratico6">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta12" id="pratico7" value="option2">
+                <label class="form-check-label" for="pratico7">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta12" id="pratico8" value="option3">
+                <label class="form-check-label" for="pratico8">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta12" id="pratico9" value="option4">
+                <label class="form-check-label" for="pratico9">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta12" id="pratico10" value="option5">
+                <label class="form-check-label" for="pratico10">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Ter bom entendimento / ser curioso.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta19" id="Intelectual16" value="option1"  >
+                <label class="form-check-label" for="Intelectual1">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta19" id="Intelectual17" value="option2">
+                <label class="form-check-label" for="Intelectual2">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta19" id="Intelectual18" value="option3">
+                <label class="form-check-label" for="Intelectual8">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta19" id="Intelectual9" value="option4">
+                <label class="form-check-label" for="Intelectual9">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta19" id="Intelectual20" value="option5">
+                <label class="form-check-label" for="Intelectual20">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Tomar decisões de negócios.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta3" id="Empresarial11" value="option1"  >
+                <label class="form-check-label" for="Empresarial11">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta3" id="Empresarial12" value="option2">
+                <label class="form-check-label" for="Empresarial12">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta3" id="Empresarial3" value="option3">
+                <label class="form-check-label" for="Empresarial3">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta3" id="Empresarial4" value="option4">
+                <label class="form-check-label" for="Empresarial4">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta3" id="Empresarial5" value="option5">
+                <label class="form-check-label" for="Empresarial5">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Criar sistemas ou procedimentos.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta7" id="Administrativo6" value="option1"  >
+                <label class="form-check-label" for="Administrativo6">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta7" id="Administrativo7" value="option2">
+                <label class="form-check-label" for="Administrativo7">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta7" id="Administrativo8" value="option3">
+                <label class="form-check-label" for="Administrativo8">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta7" id="Administrativo9" value="option4">
+                <label class="form-check-label" for="Administrativo9">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta7" id="Administrativo10" value="option5">
+                <label class="form-check-label" for="Administrativo10">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Trabalhar em ambiente externo.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta13" id="pratico11" value="option1"   >
+                <label class="form-check-label" for="pratico11">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta13" id="pratico12" value="option2">
+                <label class="form-check-label" for="pratico12">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta13" id="pratico13" value="option3">
+                <label class="form-check-label" for="pratico13">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta13" id="pratico14" value="option4">
+                <label class="form-check-label" for="pratico14">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta13" id="pratico15" value="option5">
+                <label class="form-check-label" for="pratico15">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Resolver problemas à sua maneira.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta20" id="Intelectual21" value="option1"  >
+                <label class="form-check-label" for="Intelectual21">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta20" id="Intelectual22" value="option2">
+                <label class="form-check-label" for="Intelectual22">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta20" id="Intelectual23" value="option3">
+                <label class="form-check-label" for="Intelectual23">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta20" id="Intelectual24" value="option4">
+                <label class="form-check-label" for="Intelectual24">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta20" id="Intelectual25" value="option5">
+                <label class="form-check-label" for="Intelectual25">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Usar a imaginação, expressar ideias.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta24" id="Criativo16" value="option1"  >
+                <label class="form-check-label" for="Criativo16">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta24" id="Criativo17" value="option2">
+                <label class="form-check-label" for="Criativo17">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta24" id="Criativo18" value="option3">
+                <label class="form-check-label" for="Criativo18">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta24" id="Criativo19" value="option4">
+                <label class="form-check-label" for="Criativo19">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta24" id="Criativo20" value="option5">
+                <label class="form-check-label" for="Criativo20">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Gerenciar/liderar pessoas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta4" id="Empresarial16" value="option1"  >
+                <label class="form-check-label" for="Empresarial16">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta4" id="Empresarial7" value="option2">
+                <label class="form-check-label" for="Empresarial7">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta4" id="Empresarial8" value="option3">
+                <label class="form-check-label" for="Empresarial8">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta4" id="Empresarial9" value="option4">
+                <label class="form-check-label" for="Empresarial9">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta4" id="Empresarial20" value="option5">
+                <label class="form-check-label" for="Empresarial20">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Participar de atividades artísticas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta25" id="Criativo21" value="option1"  >
+                <label class="form-check-label" for="Criativo21">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta25" id="Criativo22" value="option2">
+                <label class="form-check-label" for="Criativo22">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta25" id="Criativo23" value="option3">
+                <label class="form-check-label" for="Criativo23">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta25" id="Criativo24" value="option4">
+                <label class="form-check-label" for="Criativo24">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta25" id="Criativo25" value="option5">
+                <label class="form-check-label" for="Criativo25">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Ensinar.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta28" id="Social11" value="option1"  >
+                <label class="form-check-label" for="Social11">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta28" id="Social12" value="option2">
+                <label class="form-check-label" for="Social12">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta28" id="Social13" value="option3">
+                <label class="form-check-label" for="Social13">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta28" id="Social14" value="option4">
+                <label class="form-check-label" for="Social14">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta28" id="Social15" value="option5">
+                <label class="form-check-label" for="Social15">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Configurar banco de dados.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta8" id="Administrativo11" value="option1"   >
+                <label class="form-check-label" for="Administrativo11">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta8" id="Administrativo12" value="option2">
+                <label class="form-check-label" for="Administrativo12">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta8" id="Administrativo13" value="option3">
+                <label class="form-check-label" for="Administrativo13">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta8" id="Administrativo14" value="option4">
+                <label class="form-check-label" for="Administrativo14">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta8" id="Administrativo15" value="option5">
+                <label class="form-check-label" for="Administrativo5">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Ter uma rotina e estruturas claras.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta9" id="Administrativo16" value="option1"   >
+                <label class="form-check-label" for="Administrativo16">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta9" id="Administrativo17" value="option2">
+                <label class="form-check-label" for="Administrativo17">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta9" id="Administrativo18" value="option3">
+                <label class="form-check-label" for="Administrativo18">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta9" id="Administrativo19" value="option4">
+                <label class="form-check-label" for="Administrativo19">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta9" id="Administrativo20" value="option5">
+                <label class="form-check-label" for="Administrativo20">5</label>
+              </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Desenvolver habilidades práticas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta14" id="pratico16" value="option1"  >
+                <label class="form-check-label" for="pratico16">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta14" id="pratico17" value="option2">
+                <label class="form-check-label" for="pratico17">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta14" id="pratico18" value="option3">
+                <label class="form-check-label" for="pratico18">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta14" id="pratico19" value="option4">
+                <label class="form-check-label" for="pratico19">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta14" id="pratico20" value="option5">
+                <label class="form-check-label" for="pratico20">5</label>
+              </div>
+          </div>
+        </li>
+         <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Ajudar as pessoas em seus problemas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta29" id="Social16" value="option1"  >
+                <label class="form-check-label" for="Social16">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta29" id="Social17" value="option2">
+                <label class="form-check-label" for="Social17">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta29" id="Social18" value="option3">
+                <label class="form-check-label" for="Social18">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta29" id="Social19" value="option4">
+                <label class="form-check-label" for="Social19">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta29" id="Social20" value="option5">
+                <label class="form-check-label" for="Social20">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Assumir riscos financeiros e de negócios.
+            </p>
+           <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta5" id="Empresarial21" value="option1"  >
+                <label class="form-check-label" for="Empresarial21">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta5" id="Empresarial22" value="option2">
+                <label class="form-check-label" for="Empresarial22">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta5" id="Empresarial23" value="option3">
+                <label class="form-check-label" for="Empresarial23">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta5" id="Empresarial24" value="option4">
+                <label class="form-check-label" for="Empresarial24">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta5" id="Empresarial25" value="option5">
+                <label class="form-check-label" for="Empresarial25">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Construir relacionamentos.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta30" id="Social21" value="option1"  >
+                <label class="form-check-label" for="Social21">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta30" id="Social22" value="option2">
+                <label class="form-check-label" for="Social22">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta30" id="Social23" value="option3">
+                <label class="form-check-label" for="Social23">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta30" id="Social24" value="option4">
+                <label class="form-check-label" for="Social24">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta30" id="Social25" value="option5">
+                <label class="form-check-label" for="Social25">5</label>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Consertar objetos/máquinas.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta15" id="pratico21" value="option1"  >
+                <label class="form-check-label" for="pratico21">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta15" id="pratico22" value="option2">
+                <label class="form-check-label" for="pratico22">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta15" id="pratico23" value="option3">
+                <label class="form-check-label" for="pratico23">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta15" id="pratico24" value="option4">
+                <label class="form-check-label" for="pratico24">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta15" id="pratico25" value="option5">
+                <label class="form-check-label" for="pratico25">5</label>
+              </div>
+          </div>
+        </li>
+        <li>
+          <div class="container">
+          
+            <p class="pergunta">
+              Trabalhar com números.
+            </p>
+            <div class="input-group">
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta10" id="Administrativo21" value="option1"   >
+                <label class="form-check-label" for="Administrativo21">1</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta10" id="Administrativo22" value="option2">
+                <label class="form-check-label" for="Administrativo22">2</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta10" id="Administrativo23" value="option3">
+                <label class="form-check-label" for="Administrativo23">3</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta10" id="Administrativo24" value="option4">
+                <label class="form-check-label" for="Administrativo24">4</label>
+              </div>
+              <div>
+                <input class="form-check-input clicavel" type="radio" name="pergunta10" id="Administrativo25" value="option5">
+                <label class="form-check-label" for="Administrativo25">5</label>
+              </div>
+          </div>
+        </li>
+
+      </ol>
+
+      <p class="mensagem-erro">Você precisa responder a todas as perguntas para avançar para a próxima etapa! Verifique suas respostas e tente novamente.</p>
+
+      <div id="navPerguntas" class="container flex-column flex-wrap">
+        <div class="inicio">
+          <button type="button" class="btn btn-outline-primary voltarEtapa">Etapa anterior</button>
+          <button type="button" class="btn btn-outline-primary voltarPergunta"><i class="material-icons">arrow_back</i></button>
+          <button type="button" class="btn btn-primary avancarPergunta"><i class="material-icons">arrow_forward</i></button>
+          <button type="button" class="btn btn-primary avancarEtapa">Ir para etapa 2</button>
+        </div>
+        <div class="barra-progresso">
+          <div></div>
+        </div>
+      </div>
+
+      <div id="navOrientada" class="container d-flex flex-column flex-md-row justify-content-around">
+        <button type="button" class="btn btn-outline-primary voltarEtapa">Etapa anterior</button>
+        <button type="button" class="btn btn-primary avancarEtapa">Ir para etapa 2</button>
+      </div>
+    </div>
+
+    <!-- Análise do Resultado -->
+    <div class="container-fluid text-center etapa" id="analise">
+    <div class="cabecalho">
+      <h2>ETAPA 2</h2>
+        </div>
+      <div>
+         <p>Nos quadros a seguir você deve escolher, entre cada par, qual o perfil com o qual você mais se identifica</p>
+      </div>
+    <div class="container" style="margin-top: 2%;">
+     <div class="row d-flex justify-content-center" style="margin-bottom: 2%;">
+      <div class="fase2" id = "caixa01" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel01_a">Prático</div>
+       <div class="retangulo2 clicavel_2"  id = "clicavel01_b">Intelectual</div>
+      </div>
+      <div class="fase2" id = "caixa02" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel02_a">Intelectual</div>
+        <div class="retangulo2 clicavel_2" id = "clicavel02_b">Criativo</div>
+      </div>
+        <div class="fase2" id = "caixa03" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel03_a">Criativo</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel03_b">Social</div>
+      </div>
+      <div class="fase2" id = "caixa04" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel04_a">Social</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel04_b">Empresarial</div>
+      </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="row d-flex justify-content-center" style="margin-bottom: 2%;">
+      <div class="fase2" id = "caixa06" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel06_a">Prático</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel06_b">Criativo</div>
+      </div>
+      <div class="fase2" id = "caixa07" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel07_a">Intelectual</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel07_b">Social</div>
+      </div>
+        <div class="fase2" id = "caixa08" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel08_a">Criativo</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel08_b">Empresarial</div>
+      </div>
+      <div class="fase2" id = "caixa09" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel09_a">Social</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel09_b">Administrativo</div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="row d-flex justify-content-center" style="margin-bottom: 2%;">
+      <div class="fase2" id = "caixa10" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel10_a">Prático</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel10_b">Social</div>
+      </div>
+      <div class="fase2" id = "caixa11" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel11_a">Intelectual</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel11_b">Empresarial</div>
+      </div>
+        <div class="fase2" id = "caixa12" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel12_a">Criativo</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel12_b">Administrativo</div>
+      </div>
+      <div class="fase2" id = "caixa05" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel05_a">Empresarial</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel05_b">Administrativo</div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 2%;">
+    <div class="row d-flex justify-content-center" style="margin-bottom: 2%;">
+      <div class="fase2" id = "caixa13" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel13_a">Prático</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel13_b">Empresarial</div>
+      </div>
+      <div class="fase2" id = "caixa14" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel14_a">Intelectual</div>
+       <div class="retangulo2 clicavel_2" id = "clicavel14_b">Administrativo</div>
+      </div>
+      <div class="fase2" id = "caixa15" style="margin: 2%;">
+        <div class="retangulo clicavel_2" id = "clicavel15_a">Prático</div>
+        <div class="retangulo2 clicavel_2" id = "clicavel15_b">Administrativo</div>
+      </div>
+    </div>
+    </div>
+
+
+    <p class="mensagem-erro">Você precisa responder a todas as perguntas para avançar para a próxima etapa! Verifique suas respostas e tente novamente.</p>
+
+    <div id="navPerguntas" class="container flex-column flex-wrap">
+        <div class="inicio">
+          <button type="button" class="btn btn-outline-primary voltarEtapa3">Etapa anterior</button>
+          <button type="button" class="btn btn-primary avancarEtapa3">Ir para etapa 3</button>
+        </div>
+        <div class="barra-progresso2">
+          <div></div>
+        </div>
+      </div>
+
+      <div id="navOrientada" class="container d-flex flex-column flex-md-row justify-content-around">
+        <button type="button" class="btn btn-outline-primary voltarEtapa3">Etapa anterior</button>
+        <button type="button" class="btn btn-primary avancarEtapa3">Ir para etapa 3</button>
+      </div>
+    </div>
+
+    <div class="container text-center etapa" id="analise2">
+    <div class="cabecalho print">
+      <h2>ETAPA 3</h2>
+        </div>
+      <div>
+      <div class="print">
+         <p><b style="color: #00afaf">Confira agora seu perfil profissional</b> a partir das respostas dadas em cada etapa. Para saber quais frases se relacionam a um determinado perfil na etapa 1, é só clicar no nome do perfil.</p>
+         <p><b style="color: #00afaf">Compare sua classificação em cada etapa.</b> Se for muito diferente, gaste um minutinho para refletir os motivos que podem ter levado a isso.</p>
+         <p><b style="color: #00afaf">Veja também o resultado de seu perfil dentro do mapa de interesses.</b></p>
+      </div>
+     </div>
+
+      <div class="container" style="padding: 0;">
+      	<div class="row">
+      		<div class="col-sm" style="display: inline-flex;">
+      			<div class="quadrado1" style="margin-top: 0.5%; margin-right: 1%;">Etapa 1</div>
+      			<div class="quadrado2" style="margin-top: 0.5%">Etapa 2</div>
+      		</div>
+      	</div>
+      		
+      </div>
+
+        <div class="container" align="center" style="margin-top: 2%; border: 1.5px solid #00afaf;">
+
+          <div class="row quadro text-center" style="margin-bottom: 2%; margin-top: 2.5%;">
+            <div class="col-sm" align="left" style="margin-bottom: 2%;">
+              
+              <div class="line btn one"  data-toggle="collapse" data-target="#demo1"><i class="fa fa-caret-right um"></i> Empresarial</div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno3">
+              <div class="grafico d-flex" style="position: relative;">
+                <div class="barra-progresso3">
+                  <div><span class="empresarial"></span></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno9">
+                  <div class="grafico d-flex">
+                    <div class="barra-progresso9">
+                <div><span class="empresarial2"></div>
+              </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div id="demo1" class="collapse" style="text-align: left;">
+          <p>Assumir riscos financeiros e de negócios</p>
+          <p>Convencer e influenciar pessoas</p>
+          <p>Envolver pessoas em um projeto</p>
+          <p>Gerenciar/liderar pessoas</p>
+          <p>Tomar decisões de negócios</p>
+        </div>
+
+          <div class="row quadro text-center" style="margin-bottom: 2%;">
+            <div class="col-sm" align="left" style="margin-bottom: 2%;">
+              <div class="line btn two"  data-toggle="collapse" data-target="#demo2"><i class="fa fa-caret-right dois"></i> Administrativo</div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno4">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso4">
+                <div><span class="administrativo"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno10">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso10">
+                <div><span class="administrativo2"></div>
+              </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="demo2" class="collapse" style="text-align: left;">
+              <p>Configurar banco de dados</p>
+              <p>Criar sistemas ou procedimentos</p>
+              <p>Ter uma rotina e estruturas claras</p>
+              <p>Trabalhar com números</p>
+              <p>Verificar se os detalhes estão corretos</p>
+            </div>
+            <div class="row quadro text-center" style="margin-bottom: 2%;">
+            <div class="col-sm" align="left" style="margin-bottom: 2%;">
+              <div class="line btn three"  data-toggle="collapse" data-target="#demo3"><i class="fa fa-caret-right tres"></i> Prático</div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno5">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso5">
+                <div><span class="pratico"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno11">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso11">
+                <div><span class="pratico2"></div>
+              </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="demo3" class="collapse" style="text-align: left;">
+              <p>Consertar objetos/máquinas</p>
+              <p>Desenvolver habilidades práticas</p>
+              <p>Ter boa coordenação motora</p>
+              <p>Trabalhar com ferramentas/máquinas</p>
+              <p>Trabalhar em ambiente externo</p>
+            </div>            
+
+            <div class="row quadro text-center" style="margin-bottom: 2%;">
+            <div class="col-sm" align="left" style="margin-bottom: 2%;">
+              <div class="line btn four"  data-toggle="collapse" data-target="#demo4"><i class="fa fa-caret-right quatro"></i> Intelectual</div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno6">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso6">
+                <div><span class="intelectual"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno12">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso12">
+                <div><span class="intelectual2"></div>
+              </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="demo4" class="collapse" style="text-align: left;">
+              <p>Aprender coisas novas</p>
+              <p>Fazer perguntas</p>
+              <p>Pesquisar, analisar informações</p>
+              <p>Resolver problemas à sua maneira</p>
+              <p>Ter bom entendimento / ser curioso</p>
+            </div>   
+            <div class="row quadro text-center" style="margin-bottom: 2%;">
+            <div class="col-sm" align="left" style="margin-bottom: 2%;">
+              <div class="line btn five"  data-toggle="collapse" data-target="#demo5"><i class="fa fa-caret-right cinco"></i> Criativo</div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno7">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso7">
+                <div><span class="criativo"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno13">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso13">
+                <div><span class="criativo2"></div>
+              </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="demo5" class="collapse" style="text-align: left;">
+              <p>Criar e fazer coisas</p>
+              <p>Escrever textos, músicas, roteiros de peça/filmes</p>
+              <p>Participar de atividades artísticas</p>
+              <p>Trabalhar ao lado de pessoas criativas</p>
+              <p>Usar a imaginação, expressar ideias</p>
+            </div>   
+            <div class="row quadro text-center" style="margin-bottom: 2%;">
+            <div class="col-sm" align="left" style="margin-bottom: 2%;">
+              <div class="line btn six"  data-toggle="collapse" data-target="#demo6"><i class="fa fa-caret-right seis"></i> Social</div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno8">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso8">
+                <div><span class="social"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm">
+              <div class="flex-grow-1 contorno14">
+                  <div class="grafico d-flex" style="position: relative;">
+                    <div class="barra-progresso14">
+                <div><span class="social2"></div>
+              </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="demo6" class="collapse" style="text-align: left;">
+              <p>Ajudar as pessoas em seus problemas</p>
+              <p>Construir relacionamentos</p>
+              <p>Conversar, fazer reuniões</p>
+              <p>Cuidar das pessoas e se importar com elas</p>
+              <p>Ensinar</p>
+            </div>   
+          </div>
+
+<div class="container" align="center" style="padding-top:4%;">
+<canvas id="canvas1"><img style="padding-top: 4%; padding-bottom: 2%; width: 100%; height: auto; text-align: center; position: absolute;" src="assets/mapa3.png"></canvas>
+</div>
+<p class="imprimir" style="text-align: center;"><b><a href="" style="color: black;">Se quiser, você pode clicar aqui para imprimir seu resultado.</a></b></p>
+ 
+ <div id="navPerguntas" class="container flex-column flex-wrap">
+        <div class="inicio">
+          <button type="button" class="btn btn-outline-primary voltarEtapa4 print">Etapa anterior</button>
+          <button type="button" class="btn btn-primary avancarEtapa4 print" style="min-width: 8rem;">Finalizar</button>
+        </div>
+      </div>
+
+      <div id="navOrientada" class="container d-flex flex-column flex-md-row justify-content-around" style="padding-bottom: 4%;">
+        <button type="button" class="btn btn-outline-primary voltarEtapa4 print">Etapa anterior</button>
+        <button type="button" class="btn btn-primary avancarEtapa4 print" style="min-width: 8rem;">Finalizar</button>
+      </div>
+    </div>
+</div>
+</div>
+    <div class="container text-center etapa" id="analise3">
+    <div class="cabecalho" style="    margin-bottom: 3%;">
+<img style="width: 100%; text-align: center;" src="assets/ilustra_rea_estagio.png">
+<div class="container finalizacao" align="center">
+ 	<p>Este exercício foi pensado para ajudar você a refletir sobre a imagem que você tem a respeito de determinados perfis profissionais e compará-la com as experiências, conhecimentos e habilidades que se fazem necessários.</p>
+	<p>É o primeiro passo para você saber em quais áreas tem um bom desenvolvimento, quais áreas deseja desenvolver e com quais áreas tem maior afinidade ou precisa de mais informações.</p>
+	
+ </div>
+
+<div class="container" style="padding: 0;">
+              <div class="btn seven"  data-toggle="collapse" data-target="#demo6" style="background-color: #f64951; color: white; padding: 1%; margin-bottom: 1%; max-width: 100%; min-width: 35%;">Veja outras maneiras de fazer uso deste recurso&nbsp;&nbsp;<i class="fa fa-caret-right sete"></i></div>
+            </div>
+            <div id="demo6" class="collapse" style="text-align: center;">
+              <p style="color: #f64951">
+              
+              1. Ao analisar o resultado, faça uma reflexão a partir de perguntas como: Qual a maior e a menor pontuação que você obteve? Você fez pontuações semelhantes em setores adjacentes ou opostos?</p>
+              <p style="color: #f64951">
+              2. Peça a pessoas próximas para avaliar você na etapa 2 e compare a visão dos outros sobre você com a visão que você tem de si mesmo.</p>
+              <p style="color: #f64951">3. Refaça o exercício respondendo às perguntas a partir do cargo que você ocupa (ou do cargo que pretende ocupar) e compare com o resultado do seu perfil. Se para ocupar esse cargo há setores que precisam ser melhor desenvolvidos, trace uma estratégia e defina ações nessa direção.</p>
+              
+</p>
+            </div>   
+</div>
+
+<div id="navPerguntas" class="container flex-column flex-wrap">
+        <div class="inicio">
+          <button type="button" class="btn btn-outline-primary voltarEtapa5">Etapa anterior</button>
+          <button type="button" class="btn btn-primary avancarEtapa5">Voltar ao início</button>
+        </div>
+      </div>
+
+      <div id="navOrientada" class="container d-flex flex-column flex-md-row justify-content-around">
+        <button type="button" class="btn btn-outline-primary voltarEtapa5">Etapa anterior</button>
+        <button type="button" class="btn btn-primary avancarEtapa5">Voltar ao início</button>
+      </div>
+    </div>
+</div>
+
+</main>
+
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="cred-rea">
+
+        <!-- Comente em caso de adaptação do REA -->
+        <p>
+          <span>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2019.txt" target="_blank">MIT</a>.
+          Você pode utilizá-lo, compartilhá-lo e modificá-lo.</span>
+          <span><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></span>.
+        <p>
+        <!-- Descomente em caso de adaptação do REA -->
+        <!-- <p>
+          <span>Recurso Educacional Aberto (REA) adaptado por SEU NOME.</span>
+          <span><a href="#">Versão original da Univesp</a></span>
+        </p> -->
+      </div>
+
+      <div class="aval-rea d-flex">
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://forms.office.com/r/PG0NEJ9Rvq" target="_blank">Avaliar este recurso</a>
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://forms.office.com/r/BU3heRJ9ZP" target="_blank">Reportar erro</a>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fim do rodapé -->
+
+  <!-- Fim da div .esconder-tela-pequena
+  Utilizar essa div caso o REA não se adapte a todos os formatos de tela -->
+  <!-- </div> -->
+
+  <!-- AVISO =+960px -->
+  <!-- Utilizar caso o REA possua limitações quanto aos tamanhos de tela
+  Caso contrário, deletar -->
+  <!-- <div class= "container d-lg-none text-center">
+    <div class="container">
+      <a href="https://univesp.br/" target="_blank">
+        <img src="https://apps.univesp.br/common/logo-univesp-positivo.svg" alt="Logo da Univesp" height="47px" width="135px" class='img-responsive center-block' style="margin-top:4rem">
+      </a>
+    </div>
+    <img src='https://apps.univesp.br/common/aviso-tela.gif' alt="Computador Animado" height="117px" width="160px" class='img-responsive center-block' style="margin-top:3rem">
+    <div style="margin-top:.5rem">
+      <p>
+        <font style=font-family:"Barlow" color="#3b78d1" 'text-center' size="10rem"><b>OPS!</b></font>
+      </p>
+      <p>
+        <font style=font-family:"Verdana" "text-center" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 992px.</font>
+      </p>
+    </div>
+  </div> -->
+
+  <!-- Créditos -->
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <h6>Governo do Estado de São Paulo</h6>
+          <p>Secretaria de Desenvolvimento Econômico</p>
+
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO – UNIVESP</h6>
+          <!--<p><span class="funcao">Presidente</span>Fernanda Gouveia</p>-->
+          <p><span class="funcao">Presidente</span>Rodolfo Jardim de Azevedo</p>
+          <p><span class="funcao">Diretora Acadêmica</span>Simone Telles Martins Ramos</p>
+          <p><span class="funcao">Diretor Administrativo</span>Leonardo Augusto Amaral Terra</p>
+
+          <h6>Equipe</h6>
+          <p><span class="funcao">Docente responsável</span>Prof. Dr. Anibal Tavares de Azevedo</p>
+          <p><span class="funcao">Ilustração</span>Natasha Higa e Francesco Felippe Micieli</p>
+          <p><span class="funcao">Layout</span>Natasha Higa</p>
+          <p><span class="funcao">Programação</span>Celso de Oliveira e Alberto Ortiz Mendes</p>
+          <p><span class="funcao">Planejamento e Design Instrucional</span>Alfredo Salvador Vieira Coelho</p>
+
+
+        </div>
+        <div class="modal-footer">
+          <p>Abril/2019</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- jsSocials -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+  var share = $("#share-buttons");
+  var page_title = $(document).attr('title');
+  var page_url = window.location.href;
+  share.jsSocials({
+    shares: [
+      {
+        share: "facebook",
+        label: "Facebook",
+        logo: "fab fa-facebook-f",
+      },
+      {
+        share: "twitter",
+        label: "Twitter",
+        logo: "fab fa-twitter",
+      },
+      {
+        share: "whatsapp",
+        label: "Whatsapp",
+        logo: "fab fa-whatsapp",
+      },
+    ],
+    url: page_url,
+    text: 'Confira o REA ' + page_title + '.',
+    showLabel: true,
+    showCount: false,
+    shareIn: "popup",
+  });
+  </script>
+
+
+  <!-- Sticky Kit -->
+  <script type="text/javascript" src="javascripts/stickykit-min.js"></script>
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="javascripts/events.js"></script>
+  <!--<script type="text/javascript" src="javascripts/canvas.js"></script>-->
+
+  <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+  <!-- Analytics. Remova em caso de reutilização do REA -->
+  <script src="https://apps.univesp.br/common/analytics.js"></script>
+
+</body>
+
+</html>
